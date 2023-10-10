@@ -20,7 +20,7 @@ particlesJS("particles-js", {
         "nb_sides": 5
       },
       "image": {
-        "src": "images/gaw.png",
+        "src": "images/aw.png",
         "width": 720,
         "height": 720
       }
