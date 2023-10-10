@@ -1,0 +1,49 @@
+body,
+html {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background-color: #131516;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+.box {
+  display: table;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.box h1 {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  color: white;
+  user-select: none;
+  font-family: palantino, serif;
+}
+
+mark.green {
+  color: rgb(97, 235, 97);
+  background: none;
+}
+
+mark.light_green {
+  color: rgb(138, 244, 138);
+  background: none;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #131516;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
