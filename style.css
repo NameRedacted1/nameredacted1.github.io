@@ -71,6 +71,13 @@ canvas {
   font-family: "Libre Barcode 128";
 }
 
+@media screen and (max-width: 640px) {
+  #barcode {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
 mark.green {
   color: rgb(97, 235, 97);
   background: none;
