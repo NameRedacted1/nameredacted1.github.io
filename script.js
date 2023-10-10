@@ -36,12 +36,12 @@ particlesJS("particles-js", {
       }
     },
     "size": {
-      "value": 5,
+      "value": 3,
       "random": true,
       "anim": {
         "enable": true,
         "speed": 3,
-        "size_min": 3,
+        "size_min": 1,
         "sync": false
       }
     },
