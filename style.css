@@ -71,7 +71,6 @@ canvas {
 }
 
 #barcode {
-  transition: 300ms ease-in-out;
   pointer-events: none;
   position: relative;
   user-select: none;
