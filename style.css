@@ -50,25 +50,28 @@ canvas {
 .box h1 {
   position: relative;
   text-align: bottom;
-  margin-top: 15vw;
+  margin-top: 5vw;
   user-select: none;
   font-size: 7vw;
   font-family: "Hacker";
+  transition: 300ms ease-in-out;
 }
 
 @media screen and (min-width: 1286px) {
   .box h1 {
     font-size: 90px;
+    margin-top: 15vw;
   }
 }
 
-@media screen and (min-height: 2000px) {
+@media screen and (max-width: 640px) {
   .box h1 {
-    margin-top: 300px;
+    font-size: 43px;
   }
 }
 
 #barcode {
+  transition: 300ms ease-in-out;
   pointer-events: none;
   position: relative;
   user-select: none;
