@@ -1,7 +1,7 @@
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 100,
+      "value": 50,
       "density": {
         "enable": true,
         "value_area": 800
@@ -11,22 +11,22 @@ particlesJS("particles-js", {
       "value": "#ffffff"
     },
     "shape": {
-      "type": "image",
+      "type": "circle",
       "stroke": {
-        "width": 2,
-        "color": "#222222"
+        "width": 0,
+        "color": "#ffffff"
       },
       "polygon": {
         "nb_sides": 5
       },
       "image": {
         "src": "images/aw.png",
-        "width": 720,
-        "height": 720
+        "width": 72,
+        "height": 72
       }
     },
     "opacity": {
-      "value": 1,
+      "value": 0,
       "random": false,
       "anim": {
         "enable": false,
@@ -36,7 +36,7 @@ particlesJS("particles-js", {
       }
     },
     "size": {
-      "value": 3,
+      "value": 0,
       "random": true,
       "anim": {
         "enable": true,
@@ -47,10 +47,10 @@ particlesJS("particles-js", {
     },
     "line_linked": {
       "enable": true,
-      "distance": 150,
+      "distance": 100,
       "color": "#61EB61",
-      "opacity": 0.5,
-      "width": 0.5
+      "opacity": 1,
+      "width": 1
     },
     "move": {
       "enable": true,
@@ -62,8 +62,8 @@ particlesJS("particles-js", {
       "bounce": false,
       "attract": {
         "enable": true,
-        "rotateX": 1000,
-        "rotateY": 1000
+        "rotateX": 1200,
+        "rotateY": 1200
       }
     }
   },
@@ -76,13 +76,13 @@ particlesJS("particles-js", {
       },
       "onclick": {
         "enable": true,
-        "mode": "push"
+        "mode": "repulse"
       },
       "resize": true
     },
     "modes": {
       "grab": {
-        "distance": 140,
+        "distance": 350,
         "line_linked": {
           "opacity": 1
         }
@@ -95,11 +95,11 @@ particlesJS("particles-js", {
         "speed": 3
       },
       "repulse": {
-        "distance": 200,
-        "duration": 0.4
+        "distance": 350,
+        "duration": 1
       },
       "push": {
-        "particles_nb": 4
+        "particles_nb": 2
       },
       "remove": {
         "particles_nb": 2
