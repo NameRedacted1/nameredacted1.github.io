@@ -67,7 +67,7 @@ canvas {
 
 @media screen and (max-width: 640px) {
   .box h1 {
-    font-size: 43px;
+    font-size: 280%;
   }
 }
 
