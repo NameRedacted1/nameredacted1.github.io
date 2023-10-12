@@ -121,7 +121,6 @@ canvas {
   font-family: "Hacker";
   text-decoration: none;
   font-size: 3vw;
-  color: rgb(138, 244, 138);
   position: relative;
   user-select: contain;
   background: transparent;
@@ -169,11 +168,15 @@ canvas {
 }
 
 .contentButtons:hover {
-  color: rgb(97, 235, 97);
+  background: linear-gradient(160deg, rgb(158, 247, 158), rgb(158, 247, 158), rgb(158, 247, 158), rgb(158, 247, 158));
+	background-size: 300%;
+  background-clip: text;
 }
 
 .contentButtons:active {
-  color: rgb(59, 175, 59);
+  background: linear-gradient(160deg, rgb(46, 161, 46), rgb(46, 161, 46), rgb(46, 161, 46), rgb(46, 161, 46));
+	background-size: 300%;
+  background-clip: text;
 }
 
 @media screen and (orientation: portrait) {
