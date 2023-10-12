@@ -37,6 +37,13 @@ body {
 .box .row.header {
   flex: 1 1 auto;
   pointer-events: none;
+  margin-bottom: -10vh;
+}
+
+@media screen and (orientation: landscape) {
+  .box .row.header {
+    margin-bottom: -40vh;
+  }
 }
 
 .box .row.content {
