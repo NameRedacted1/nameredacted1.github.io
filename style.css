@@ -130,7 +130,7 @@ canvas {
   flex-wrap: wrap;
   margin: 15px;
 
-  background: linear-gradient(160deg, rgb(97, 235, 97), rgb(97, 235, 97), rgb(51, 182, 51), rgb(51, 182, 51));
+  background: linear-gradient(160deg, rgb(97, 235, 97), rgb(97, 235, 97), rgb(69, 235, 69), rgb(69, 235, 69));
 	background-size: 300%;
   background-clip: text;
   -webkit-background-clip: text;
