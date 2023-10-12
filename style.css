@@ -129,53 +129,29 @@ canvas {
   flex-direction: row;
   flex-wrap: wrap;
   margin: 15px;
-
-  background: linear-gradient(160deg, rgb(97, 235, 97), rgb(97, 235, 97), rgb(69, 235, 69), rgb(69, 235, 69));
-	background-size: 300%;
-  background-clip: text;
+  color: #61eb61;
+  background: linear-gradient(to right, #9ef79e 20%, #85f185 30%, #85f185 70%, #9ef79e 80%);
   -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	animation: animated_text 5s ease-in-out infinite;
-	-moz-animation: animated_text 5s ease-in-out infinite;
-	-webkit-animation: animated_text 5s ease-in-out infinite;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: textShine 10s ease-in-out infinite running;
 }
 
-@keyframes animated_text {
-	0% { background-position: 0px 50%; }
-	50% { background-position: 100% 50%; }
-	100% { background-position: 0px 50%; }
-}
-
-.contentButtons:nth-child(1){
-  animation-delay: 0.1s;
-  -webkit-animation-delay: 0.1s;
-}
-.contentButtons:nth-child(2){
-  animation-delay: 0.2s;
-  -webkit-animation-delay: 0.2s;
-}
-.contentButtons:nth-child(3){
-  animation-delay: 0.3s;
-  -webkit-animation-delay: 0.3s;
-}
-.contentButtons:nth-child(4){
-  animation-delay: 0.4s;
-  -webkit-animation-delay: 0.4s;
-}
-.contentButtons:nth-child(5){
-  animation-delay: 0.5s;
-  -webkit-animation-delay: 0.5s;
+@keyframes textShine {
+  to {
+    background-position: 200%;
+  }
 }
 
 .contentButtons:hover {
-  background: linear-gradient(160deg, rgb(158, 247, 158), rgb(158, 247, 158), rgb(158, 247, 158), rgb(158, 247, 158));
-	background-size: 300%;
+  background: #bff5bf;
   background-clip: text;
 }
 
 .contentButtons:active {
-  background: linear-gradient(160deg, rgb(46, 161, 46), rgb(46, 161, 46), rgb(46, 161, 46), rgb(46, 161, 46));
-	background-size: 300%;
+  background: #9fd89f;
   background-clip: text;
 }
 
@@ -194,12 +170,12 @@ canvas {
 }
 
 mark.green {
-  color: rgb(97, 235, 97);
+  color: #61eb61;
   background: none;
 }
 
 mark.light_green {
-  color: rgb(138, 244, 138);
+  color: #8af48a;
   background: none;
 }
 
