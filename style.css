@@ -147,24 +147,24 @@ canvas {
 }
 
 .contentButtons:nth-child(1){
+  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.1s;
+}
+.contentButtons:nth-child(2){
+  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+.contentButtons:nth-child(3){
   animation-delay: 0.3s;
   -webkit-animation-delay: 0.3s;
 }
-.contentButtons:nth-child(2){
-  animation-delay: 0.6s;
-  -webkit-animation-delay: 0.6s;
-}
-.contentButtons:nth-child(3){
-  animation-delay: 0.9s;
-  -webkit-animation-delay: 0.9s;
-}
 .contentButtons:nth-child(4){
-  animation-delay: 1.2s;
-  -webkit-animation-delay: 1.2s;
+  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
 }
 .contentButtons:nth-child(5){
-  animation-delay: 1.5s;
-  -webkit-animation-delay: 1.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
 }
 
 .contentButtons:hover {
