@@ -51,29 +51,32 @@ canvas {
 .box h1 {
   position: relative;
   text-align: bottom;
-  margin-top: 5vw;
+  margin-top: 1.5vh;
   user-select: none;
   font-size: 7vw;
   font-family: "Hacker";
   transition: 300ms ease-in-out;
 }
 
-@media screen and (min-width: 1286px) {
+@media screen and (orientation: portrait) {
   .box h1 {
-    font-size: 90px;
-    margin-top: 15vw;
+    font-size: 10vw;
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (orientation: landscape) {
   .box h1 {
-    font-size: 280%;
+    margin-top: 10vw;
+    font-size: 7vw;
   }
 }
 
-@media screen and (min-width: 3300px) {
-  .box h1 {
-    margin-top: 500px;
+@keyframes MoveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
   }
 }
 
