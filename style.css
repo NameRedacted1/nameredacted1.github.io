@@ -129,12 +129,9 @@ canvas {
   flex-direction: row;
   flex-wrap: wrap;
   margin: 15px;
-  color: #61eb61;
   background: linear-gradient(to right, #9ef79e 20%, #85f185 30%, #85f185 70%, #9ef79e 80%);
-  -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
+  color: transparent;
   background-size: 200% auto;
   animation: textShine 10s ease-in-out infinite running;
 }
